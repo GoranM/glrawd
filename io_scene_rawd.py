@@ -13,7 +13,8 @@ bl_info = {
 	"blender": (2, 6, 3),
 	"location": "File > Import-Export",
 	"description": "Export scene data, in a binary format, which can be consumed directly by OpenGL.",
-	"wiki_url": "http://www.github.com/goranm/GLrawd",
+	"wiki_url": "http://www.github.com/GoranM/glrawd",
+	"tracker_url": "http://www.github.com/GoranM/glrawd/issues",
 	"support": 'COMMUNITY',
 	"category": "Import-Export"
 }
