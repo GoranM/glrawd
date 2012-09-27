@@ -21,7 +21,7 @@ typedef struct {
 	GLuint count_idx;    // how many to consume
 } Geom;
 
-GLuint* count_verts = (GLuint*)fileLoad("scene.rawd"); // Loads entire file into memory, and returns pointer to that memory
+GLuint* count_verts = (GLuint*)fileLoad("scene.rawd"); // Loads entire file into memory
 GLfloat* verts = (GLfloat*)(count_verts + 1);
 GLuint* count_indices = (GLuint*)(verts + (*count_verts * 3)); // 1 vert -> 3 floats
 GLuint* indices = count_indices + 1;
